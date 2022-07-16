@@ -36,6 +36,8 @@ limitations under the License.
 #endif
 
 #if defined NPK_NET_IMPL
+    #undef NPK_NET_IMPL
+
     // ======================
     // NPK_net IMPLEMENTATION
     // ======================
